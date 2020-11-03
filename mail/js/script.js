@@ -16,6 +16,6 @@ for (var i = 0; i < listaMail.length; i++) {
 
 if(mailTrovata == true){
   console.log("Accesso consentito");
-} else if(mailTrovata == false){
+} else {
   console.log("Accesso negato");
 }
